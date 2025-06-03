@@ -78,18 +78,18 @@
 
         special_left {
             bindings = <
-&trans  &trans  &kp AMPERSAND  &kp CARET  &kp PIPE           &kp EXCL          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp EQUAL      &kp MINUS  &kp DOUBLE_QUOTES  &kp SQT           &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp ASTERISK   &kp PLUS   &kp GRAVE          &kp UNDERSCORE    &trans  &trans  &trans  &trans  &trans  &trans
-                               &trans     &trans             &trans            &trans  &trans  &trans
+&trans  &kp AT_SIGN   &kp AMPERSAND  &kp CARET  &kp PIPE        &kp EXCL             &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp EQUAL     &kp MINUS      &kp TILDE  &kp UNDERSCORE  &kp SLASH            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp ASTERISK  &kp PLUS       &kp GRAVE  &kp SQT         &kp DOUBLE_QUOTES    &trans  &trans  &trans  &trans  &trans  &trans
+                                     &trans     &trans          &trans               &trans  &trans  &trans
             >;
         };
 
         special_right {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SLASH         &kp BACKSLASH      &kp HASH      &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT_SIGN   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp COMMA             &kp PERIOD             &kp LESS_THAN     &kp GREATER_THAN   &kp QUESTION  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH     &kp QUESTION       &kp HASH   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COLON  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LESS_THAN         &kp GREATER_THAN       &kp COMMA         &kp PERIOD         &kp SLASH  &trans
                         &trans  &trans  &trans    &trans                &trans                 &trans
             >;
         };
