@@ -174,10 +174,10 @@ layers:
   - KP DOT
   special_left:
   - {t: '$$mdi:transfer$$', type: trans}
-  - '@'
+  - '%'
+  - '|'
   - '&'
   - ^
-  - '|'
   - '!'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -186,10 +186,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - _
   - {t: '=', s: +}
   - {t: '-', s: _}
-  - '~'
-  - _
+  - '"'
   - {t: /, s: '?'}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -202,7 +202,7 @@ layers:
   - +
   - {t: '`', s: '~'}
   - {t: '''', s: '"'}
-  - '"'
+  - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -222,10 +222,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '{'
-  - '}'
-  - {t: \, s: '|'}
-  - '?'
+  - (
+  - )
+  - {t: ;, s: ':'}
+  - ':'
   - '#'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -234,11 +234,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - (
-  - )
+  - '{'
+  - '}'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - ':'
+  - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -248,9 +248,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - <
   - '>'
-  - {t: ',', s: <}
-  - .
-  - {t: /, s: '?'}
+  - '@'
+  - $
+  - Sft+?
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
