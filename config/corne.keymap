@@ -78,18 +78,18 @@
 
         special_left {
             bindings = <
-&trans  &kp AT_SIGN   &kp AMPERSAND  &kp CARET  &kp PIPE        &kp EXCL             &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp EQUAL     &kp MINUS      &kp TILDE  &kp UNDERSCORE  &kp SLASH            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp ASTERISK  &kp PLUS       &kp GRAVE  &kp SQT         &kp DOUBLE_QUOTES    &trans  &trans  &trans  &trans  &trans  &trans
-                                     &trans     &trans          &trans               &trans  &trans  &trans
+&trans  &kp PERCENT     &kp PIPE   &kp AMPERSAND  &kp CARET          &kp EXCL         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp UNDERSCORE  &kp EQUAL  &kp MINUS      &kp DOUBLE_QUOTES  &kp SLASH        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp ASTERISK    &kp PLUS   &kp GRAVE      &kp SQT            &kp BACKSLASH    &trans  &trans  &trans  &trans  &trans  &trans
+                                   &trans         &trans             &trans           &trans  &trans  &trans
             >;
         };
 
         special_right {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH     &kp QUESTION       &kp HASH   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COLON  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LESS_THAN         &kp GREATER_THAN       &kp COMMA         &kp PERIOD         &kp SLASH  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON     &kp COLON          &kp HASH          &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LESS_THAN         &kp GREATER_THAN       &kp AT_SIGN       &kp DOLLAR         &kp RS(QUESTION)  &trans
                         &trans  &trans  &trans    &trans                &trans                 &trans
             >;
         };
