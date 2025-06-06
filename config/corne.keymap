@@ -69,10 +69,10 @@
 
         digits_right {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N7        &kp N8        &kp N9        &trans  &trans
-                        &trans  &trans  &trans    &trans  &kp N0        &kp KP_DOT
+&trans  &trans  &trans  &trans  &trans  &trans    &trans        &kp N7        &kp N8        &kp N9        &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
+                        &trans  &trans  &trans    &kp NUMBER_0  &trans        &kp KP_DOT
             >;
         };
 
