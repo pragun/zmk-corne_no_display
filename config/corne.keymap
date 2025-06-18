@@ -13,9 +13,13 @@
 &lt {
     tapping-term-ms = <50>;
     flavor = "hold-preferred";
+    retro-tap;
 };
 
-&mt { tapping-term-ms = <50>; };
+&mt {
+    tapping-term-ms = <50>;
+    retro-tap;
+};
 
 / {
     chosen {
