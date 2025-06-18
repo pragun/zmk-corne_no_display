@@ -19,10 +19,8 @@
 };
 
 &mt {
-    tapping-term-ms = <50>;
-    retro-tap;
+    tapping-term-ms = <100>;
     hold-while-undecided;
-    hold-while-undecided-linger;
 };
 
 / {
