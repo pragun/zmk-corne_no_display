@@ -14,11 +14,15 @@
     tapping-term-ms = <50>;
     flavor = "hold-preferred";
     retro-tap;
+    hold-while-undecided-linger;
+    hold-while-undecided;
 };
 
 &mt {
     tapping-term-ms = <50>;
     retro-tap;
+    hold-while-undecided;
+    hold-while-undecided-linger;
 };
 
 / {
