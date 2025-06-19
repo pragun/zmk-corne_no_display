@@ -11,10 +11,8 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &lt {
-    tapping-term-ms = <50>;
+    tapping-term-ms = <100>;
     flavor = "hold-preferred";
-    retro-tap;
-    hold-while-undecided-linger;
     hold-while-undecided;
 };
 
